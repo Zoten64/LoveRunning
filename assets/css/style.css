@@ -83,10 +83,16 @@ nav{
 
 /*main content*/
 main {
-    background-color: lightblue;
     /*Make main content take up any empty space*/
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/*Hero section styles*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /*footer*/
